@@ -1,6 +1,6 @@
 The best way to run this server is in a python virtualenv. Once the virtualenv is setup, install :
 
-###  beautifulsoup4==4.6.3
+#####  beautifulsoup4==4.6.3
 ###  bs4==0.0.1
 ###  certifi==2018.11.29
 ###  chardet==3.0.4
