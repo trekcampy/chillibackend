@@ -12,3 +12,6 @@ The best way to run this server is in a python virtual enviroment. Once the virt
   requests==2.21.0
   six==1.11.0
   urllib3==1.24.1
+
+To start the server, run:
+  python manage.py runserver 0.0.0.0:8000
