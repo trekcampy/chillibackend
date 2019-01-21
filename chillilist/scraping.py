@@ -10,7 +10,7 @@ def main():
 
    pprint.pprint(json.dumps(scovList))
 
-def getScovilleVal():
+def getChilliScovilleValues():
    soup = loadPage();
    scovDict = extractScovilleVal(soup);
 

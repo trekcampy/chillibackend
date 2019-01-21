@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.http import JsonResponse
-from .scraping import getScovilleVal
+from .GetChillis import GetChilliScovilleValues
 
 def chillilist(request):
-    scoville =  getScovilleVal()
-    return JsonResponse(scoville,safe=False)
+    chilliList =  GetChilliScovilleValues()
+    return JsonResponse(chilliList,safe=False)
